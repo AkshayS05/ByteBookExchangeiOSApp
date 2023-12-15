@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BRv-mn-x5v">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Responsive View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ResponsiveViewController" customModule="ByteBookExchange" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="H6j-vW-ylB"/>
+                    <connections>
+                        <segue destination="24n-3d-Dga" kind="show" identifier="RegisterController" id="EU7-9B-O5y"/>
+                        <segue destination="kF7-I8-wwV" kind="show" identifier="LoginView" id="3QB-N6-Ktd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="889" y="35"/>
+        </scene>
+        <!--Register View Controller-->
+        <scene sceneID="gKZ-Ru-KtN">
+            <objects>
+                <viewController restorationIdentifier="LoginHomeViewController" storyboardIdentifier="RegisterView" id="24n-3d-Dga" userLabel="Register View Controller" customClass="LoginHomeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gn7-t1-FUw" customClass="RegisterViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="5oR-ng-9kb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration" identifier="RegisterView"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="iNM-0d-JXt"/>
+                    <connections>
+                        <segue destination="44R-bC-qZk" kind="show" identifier="LoginHomeViewController" id="Oqg-Lr-GZZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FDK-BP-jnD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1889" y="-479"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="2Es-CE-7p6">
+            <objects>
+                <viewController id="kF7-I8-wwV" userLabel="Login View Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ODx-BA-gf3" customClass="LoginViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Gvk-IT-TnQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <accessibility key="accessibilityConfiguration" identifier="LoginView"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AxG-5Q-4P3"/>
+                    <connections>
+                        <segue destination="44R-bC-qZk" kind="show" identifier="LoginHomeViewController" id="BQc-T4-WjC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8iF-Wv-ff3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1756" y="688"/>
+        </scene>
+        <!--Login Home Page-->
+        <scene sceneID="gwb-xm-3q5">
+            <objects>
+                <viewController id="44R-bC-qZk" customClass="LoginHomePage" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fe4-eg-fcB" customClass="LoginHomeViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="xwU-9y-QJ5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tBG-N3-i8B"/>
+                    <connections>
+                        <segue destination="HTX-xN-fQZ" kind="show" identifier="BlogViewController" id="q5W-gh-M08"/>
+                        <segue destination="znB-ws-PQE" kind="show" identifier="PostBlogViewController" id="KBd-FH-6df"/>
+                        <segue destination="qn9-9B-zVy" kind="show" identifier="QuizListViewController" id="N7B-cR-Akq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HAr-cD-bwz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2718" y="223"/>
+        </scene>
+        <!--Quiz List View Controller-->
+        <scene sceneID="Dcd-o9-YVg">
+            <objects>
+                <viewController id="qn9-9B-zVy" customClass="QuizListViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PAn-Ik-gV6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7hF-VP-hsL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yK4-3q-DFG"/>
+                    <connections>
+                        <segue destination="TEX-oI-xmH" kind="show" identifier="QuizViewController" id="R41-ju-Dfd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tn4-0D-TkQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3777" y="163"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="212-dD-dzH">
+            <objects>
+                <viewController id="TEX-oI-xmH" customClass="QuizViewController" customModule="ByteBookExchange" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N50-Ya-bZB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DAn-nA-gzh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rbH-qc-mJE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RDn-OL-pfw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4628" y="143"/>
+        </scene>
+        <!--Post Blog View Controller-->
+        <scene sceneID="SZ4-LB-c6n">
+            <objects>
+                <viewController id="znB-ws-PQE" customClass="PostBlogViewController" customModule="ByteBookExchange" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sFu-MX-69G">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="5s1-fW-AGv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l8Q-1G-6bZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxx-YC-hyP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4034" y="949"/>
+        </scene>
+        <!--Blog View Controller-->
+        <scene sceneID="vzx-I4-C2C">
+            <objects>
+                <viewController id="HTX-xN-fQZ" customClass="BlogViewController" customModule="ByteBookExchange" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Ud-se-q8h">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="MsS-SV-5x6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Qbt-k2-PzF"/>
+                    <connections>
+                        <segue destination="IuI-kc-cpi" kind="show" identifier="GenericBlogsViewController" id="qQq-xG-ytt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hky-1W-dVu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3888" y="-507"/>
+        </scene>
+        <!--Generic Blogs View Controller-->
+        <scene sceneID="tEY-5f-cHE">
+            <objects>
+                <viewController id="IuI-kc-cpi" customClass="GenericBlogsViewController" customModule="ByteBookExchange" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VKx-xC-9DM">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Nou-7D-c56"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DMe-72-BKU"/>
+                    <connections>
+                        <segue destination="ntR-ls-xqj" kind="show" identifier="GenericDetailPostController" id="Ydd-Qr-uNI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ldr-O9-pQO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4805" y="-549"/>
+        </scene>
+        <!--Generic Detail Post Controller-->
+        <scene sceneID="QAR-x7-1Bg">
+            <objects>
+                <viewController id="ntR-ls-xqj" customClass="GenericDetailPostController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RB1-qF-uD1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vzY-xp-ZLI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LM8-l8-Qh4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hYF-AY-JTW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6105" y="-565"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lRW-n9-D5v">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BRv-mn-x5v" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DFo-vh-cqs">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ucJ-Sx-wF5"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NKj-rH-XmI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.69465648854961" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="BQc-T4-WjC"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

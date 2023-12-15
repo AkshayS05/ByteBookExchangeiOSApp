@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14008CF02B2A6D4200C786AF /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14008CEF2B2A6D4200C786AF /* WelcomeScreenView.swift */; };
 		146AA8952B1EF1DD00AB2EB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8942B1EF1DD00AB2EB1 /* AppDelegate.swift */; };
 		146AA8972B1EF1DD00AB2EB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8962B1EF1DD00AB2EB1 /* SceneDelegate.swift */; };
 		146AA8992B1EF1DD00AB2EB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8982B1EF1DD00AB2EB1 /* ViewController.swift */; };
@@ -16,6 +17,36 @@
 		146AA8AC2B1EF1DF00AB2EB1 /* ByteBookExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8AB2B1EF1DF00AB2EB1 /* ByteBookExchangeTests.swift */; };
 		146AA8B62B1EF1DF00AB2EB1 /* ByteBookExchangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8B52B1EF1DF00AB2EB1 /* ByteBookExchangeUITests.swift */; };
 		146AA8B82B1EF1DF00AB2EB1 /* ByteBookExchangeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8B72B1EF1DF00AB2EB1 /* ByteBookExchangeUITestsLaunchTests.swift */; };
+		146AA8C82B202CCF00AB2EB1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8C72B202CCF00AB2EB1 /* LoginViewController.swift */; };
+		146AA8CA2B202D0D00AB2EB1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8C92B202D0D00AB2EB1 /* RegisterViewController.swift */; };
+		146AA8CC2B216E8F00AB2EB1 /* LoginHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8CB2B216E8F00AB2EB1 /* LoginHomeViewController.swift */; };
+		146AA8CE2B21806A00AB2EB1 /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8CD2B21806A00AB2EB1 /* BlogViewController.swift */; };
+		146AA8D02B21816A00AB2EB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 146AA8CF2B21816A00AB2EB1 /* GoogleService-Info.plist */; };
+		146AA8D32B21821F00AB2EB1 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 146AA8D22B21821F00AB2EB1 /* FirebaseAppCheck */; };
+		146AA8D62B21843C00AB2EB1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 146AA8D52B21843C00AB2EB1 /* FirebaseAuth */; };
+		146AA8D82B21843C00AB2EB1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 146AA8D72B21843C00AB2EB1 /* FirebaseDatabase */; };
+		146AA8DA2B21843C00AB2EB1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 146AA8D92B21843C00AB2EB1 /* FirebaseFirestore */; };
+		146AA8DC2B23860500AB2EB1 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8DB2B23860500AB2EB1 /* QuizViewController.swift */; };
+		146AA8DE2B24429000AB2EB1 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8DD2B24429000AB2EB1 /* Question.swift */; };
+		146AA8E02B2456ED00AB2EB1 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8DF2B2456ED00AB2EB1 /* QuizBrain.swift */; };
+		146AA8E22B27D1C900AB2EB1 /* GenericBlogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8E12B27D1C900AB2EB1 /* GenericBlogsViewController.swift */; };
+		146AA8E42B280C6200AB2EB1 /* PostBlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8E32B280C6200AB2EB1 /* PostBlogViewController.swift */; };
+		146AA8E62B28425000AB2EB1 /* BlogTitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8E52B28425000AB2EB1 /* BlogTitles.swift */; };
+		146AA8ED2B284F9600AB2EB1 /* GenericDetailPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8EC2B284F9600AB2EB1 /* GenericDetailPostController.swift */; };
+		146AA8F22B29A0CD00AB2EB1 /* BlogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146AA8F02B29A0CD00AB2EB1 /* BlogCell.swift */; };
+		146AA8F32B29A0CD00AB2EB1 /* BlogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146AA8F12B29A0CD00AB2EB1 /* BlogCell.xib */; };
+		1493554A2B2A74C1002B7700 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149355492B2A74C1002B7700 /* RegisterView.swift */; };
+		1493554C2B2A7711002B7700 /* LoginHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493554B2B2A7711002B7700 /* LoginHomeView.swift */; };
+		1493554E2B2A7991002B7700 /* BlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493554D2B2A7991002B7700 /* BlogView.swift */; };
+		149355502B2A83FF002B7700 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493554F2B2A83FF002B7700 /* QuizView.swift */; };
+		149355522B2A9412002B7700 /* GenericBlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149355512B2A9412002B7700 /* GenericBlogView.swift */; };
+		149355542B2A96E9002B7700 /* PostBlogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149355532B2A96E9002B7700 /* PostBlogView.swift */; };
+		149355582B2A9B01002B7700 /* GenericDetailPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149355572B2A9B01002B7700 /* GenericDetailPostView.swift */; };
+		1493555A2B2AB1C8002B7700 /* QuizListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149355592B2AB1C8002B7700 /* QuizListView.swift */; };
+		1493555C2B2AB372002B7700 /* QuizListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1493555B2B2AB372002B7700 /* QuizListViewController.swift */; };
+		1493555F2B2AB69E002B7700 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1493555E2B2AB69E002B7700 /* IQKeyboardManagerSwift */; };
+		149355612B2AC872002B7700 /* UserLogout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149355602B2AC872002B7700 /* UserLogout.swift */; };
+		14999ED72B2A6A090083C423 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14999ED62B2A6A090083C423 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14008CEF2B2A6D4200C786AF /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
 		146AA8912B1EF1DD00AB2EB1 /* ByteBookExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteBookExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146AA8942B1EF1DD00AB2EB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		146AA8962B1EF1DD00AB2EB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +81,31 @@
 		146AA8B12B1EF1DF00AB2EB1 /* ByteBookExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ByteBookExchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146AA8B52B1EF1DF00AB2EB1 /* ByteBookExchangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteBookExchangeUITests.swift; sourceTree = "<group>"; };
 		146AA8B72B1EF1DF00AB2EB1 /* ByteBookExchangeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteBookExchangeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		146AA8C72B202CCF00AB2EB1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		146AA8C92B202D0D00AB2EB1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		146AA8CB2B216E8F00AB2EB1 /* LoginHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeViewController.swift; sourceTree = "<group>"; };
+		146AA8CD2B21806A00AB2EB1 /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		146AA8CF2B21816A00AB2EB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		146AA8DB2B23860500AB2EB1 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		146AA8DD2B24429000AB2EB1 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		146AA8DF2B2456ED00AB2EB1 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+		146AA8E12B27D1C900AB2EB1 /* GenericBlogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBlogsViewController.swift; sourceTree = "<group>"; };
+		146AA8E32B280C6200AB2EB1 /* PostBlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBlogViewController.swift; sourceTree = "<group>"; };
+		146AA8E52B28425000AB2EB1 /* BlogTitles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogTitles.swift; sourceTree = "<group>"; };
+		146AA8EC2B284F9600AB2EB1 /* GenericDetailPostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDetailPostController.swift; sourceTree = "<group>"; };
+		146AA8F02B29A0CD00AB2EB1 /* BlogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogCell.swift; sourceTree = "<group>"; };
+		146AA8F12B29A0CD00AB2EB1 /* BlogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlogCell.xib; sourceTree = "<group>"; };
+		149355492B2A74C1002B7700 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		1493554B2B2A7711002B7700 /* LoginHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeView.swift; sourceTree = "<group>"; };
+		1493554D2B2A7991002B7700 /* BlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogView.swift; sourceTree = "<group>"; };
+		1493554F2B2A83FF002B7700 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		149355512B2A9412002B7700 /* GenericBlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericBlogView.swift; sourceTree = "<group>"; };
+		149355532B2A96E9002B7700 /* PostBlogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBlogView.swift; sourceTree = "<group>"; };
+		149355572B2A9B01002B7700 /* GenericDetailPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDetailPostView.swift; sourceTree = "<group>"; };
+		149355592B2AB1C8002B7700 /* QuizListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizListView.swift; sourceTree = "<group>"; };
+		1493555B2B2AB372002B7700 /* QuizListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizListViewController.swift; sourceTree = "<group>"; };
+		149355602B2AC872002B7700 /* UserLogout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogout.swift; sourceTree = "<group>"; };
+		14999ED62B2A6A090083C423 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +113,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1493555F2B2AB69E002B7700 /* IQKeyboardManagerSwift in Frameworks */,
+				146AA8D82B21843C00AB2EB1 /* FirebaseDatabase in Frameworks */,
+				146AA8DA2B21843C00AB2EB1 /* FirebaseFirestore in Frameworks */,
+				146AA8D32B21821F00AB2EB1 /* FirebaseAppCheck in Frameworks */,
+				146AA8D62B21843C00AB2EB1 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +145,7 @@
 				146AA8AA2B1EF1DF00AB2EB1 /* ByteBookExchangeTests */,
 				146AA8B42B1EF1DF00AB2EB1 /* ByteBookExchangeUITests */,
 				146AA8922B1EF1DD00AB2EB1 /* Products */,
+				146AA8D42B21843C00AB2EB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +162,14 @@
 		146AA8932B1EF1DD00AB2EB1 /* ByteBookExchange */ = {
 			isa = PBXGroup;
 			children = (
+				146AA8C62B200F0400AB2EB1 /* Controller */,
+				146AA8C52B200EF700AB2EB1 /* View */,
+				146AA8C42B200EE800AB2EB1 /* Model */,
 				146AA8942B1EF1DD00AB2EB1 /* AppDelegate.swift */,
 				146AA8962B1EF1DD00AB2EB1 /* SceneDelegate.swift */,
-				146AA8982B1EF1DD00AB2EB1 /* ViewController.swift */,
-				146AA89A2B1EF1DD00AB2EB1 /* Main.storyboard */,
 				146AA89D2B1EF1DF00AB2EB1 /* Assets.xcassets */,
 				146AA89F2B1EF1DF00AB2EB1 /* LaunchScreen.storyboard */,
+				146AA8CF2B21816A00AB2EB1 /* GoogleService-Info.plist */,
 				146AA8A22B1EF1DF00AB2EB1 /* Info.plist */,
 			);
 			path = ByteBookExchange;
@@ -127,6 +192,61 @@
 			path = ByteBookExchangeUITests;
 			sourceTree = "<group>";
 		};
+		146AA8C42B200EE800AB2EB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				146AA8DD2B24429000AB2EB1 /* Question.swift */,
+				146AA8DF2B2456ED00AB2EB1 /* QuizBrain.swift */,
+				146AA8E52B28425000AB2EB1 /* BlogTitles.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		146AA8C52B200EF700AB2EB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				146AA89A2B1EF1DD00AB2EB1 /* Main.storyboard */,
+				146AA8F02B29A0CD00AB2EB1 /* BlogCell.swift */,
+				146AA8F12B29A0CD00AB2EB1 /* BlogCell.xib */,
+				14999ED62B2A6A090083C423 /* LoginView.swift */,
+				14008CEF2B2A6D4200C786AF /* WelcomeScreenView.swift */,
+				149355492B2A74C1002B7700 /* RegisterView.swift */,
+				1493554B2B2A7711002B7700 /* LoginHomeView.swift */,
+				1493554D2B2A7991002B7700 /* BlogView.swift */,
+				1493554F2B2A83FF002B7700 /* QuizView.swift */,
+				149355512B2A9412002B7700 /* GenericBlogView.swift */,
+				149355532B2A96E9002B7700 /* PostBlogView.swift */,
+				149355572B2A9B01002B7700 /* GenericDetailPostView.swift */,
+				149355592B2AB1C8002B7700 /* QuizListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		146AA8C62B200F0400AB2EB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1493555B2B2AB372002B7700 /* QuizListViewController.swift */,
+				146AA8982B1EF1DD00AB2EB1 /* ViewController.swift */,
+				146AA8C72B202CCF00AB2EB1 /* LoginViewController.swift */,
+				146AA8C92B202D0D00AB2EB1 /* RegisterViewController.swift */,
+				146AA8CB2B216E8F00AB2EB1 /* LoginHomeViewController.swift */,
+				146AA8CD2B21806A00AB2EB1 /* BlogViewController.swift */,
+				146AA8DB2B23860500AB2EB1 /* QuizViewController.swift */,
+				146AA8E12B27D1C900AB2EB1 /* GenericBlogsViewController.swift */,
+				146AA8E32B280C6200AB2EB1 /* PostBlogViewController.swift */,
+				146AA8EC2B284F9600AB2EB1 /* GenericDetailPostController.swift */,
+				149355602B2AC872002B7700 /* UserLogout.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		146AA8D42B21843C00AB2EB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +263,13 @@
 			dependencies = (
 			);
 			name = ByteBookExchange;
+			packageProductDependencies = (
+				146AA8D22B21821F00AB2EB1 /* FirebaseAppCheck */,
+				146AA8D52B21843C00AB2EB1 /* FirebaseAuth */,
+				146AA8D72B21843C00AB2EB1 /* FirebaseDatabase */,
+				146AA8D92B21843C00AB2EB1 /* FirebaseFirestore */,
+				1493555E2B2AB69E002B7700 /* IQKeyboardManagerSwift */,
+			);
 			productName = ByteBookExchange;
 			productReference = 146AA8912B1EF1DD00AB2EB1 /* ByteBookExchange.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +342,10 @@
 				Base,
 			);
 			mainGroup = 146AA8882B1EF1DD00AB2EB1;
+			packageReferences = (
+				146AA8D12B2181C800AB2EB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1493555D2B2AB69E002B7700 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 146AA8922B1EF1DD00AB2EB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +363,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				146AA8A12B1EF1DF00AB2EB1 /* LaunchScreen.storyboard in Resources */,
+				146AA8F32B29A0CD00AB2EB1 /* BlogCell.xib in Resources */,
+				146AA8D02B21816A00AB2EB1 /* GoogleService-Info.plist in Resources */,
 				146AA89E2B1EF1DF00AB2EB1 /* Assets.xcassets in Resources */,
 				146AA89C2B1EF1DD00AB2EB1 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +391,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146AA8E62B28425000AB2EB1 /* BlogTitles.swift in Sources */,
+				1493554A2B2A74C1002B7700 /* RegisterView.swift in Sources */,
+				1493555C2B2AB372002B7700 /* QuizListViewController.swift in Sources */,
+				149355542B2A96E9002B7700 /* PostBlogView.swift in Sources */,
+				146AA8ED2B284F9600AB2EB1 /* GenericDetailPostController.swift in Sources */,
+				146AA8CA2B202D0D00AB2EB1 /* RegisterViewController.swift in Sources */,
 				146AA8992B1EF1DD00AB2EB1 /* ViewController.swift in Sources */,
+				149355502B2A83FF002B7700 /* QuizView.swift in Sources */,
+				1493554C2B2A7711002B7700 /* LoginHomeView.swift in Sources */,
+				146AA8C82B202CCF00AB2EB1 /* LoginViewController.swift in Sources */,
+				146AA8DE2B24429000AB2EB1 /* Question.swift in Sources */,
+				146AA8DC2B23860500AB2EB1 /* QuizViewController.swift in Sources */,
+				149355582B2A9B01002B7700 /* GenericDetailPostView.swift in Sources */,
+				1493555A2B2AB1C8002B7700 /* QuizListView.swift in Sources */,
+				146AA8F22B29A0CD00AB2EB1 /* BlogCell.swift in Sources */,
+				149355522B2A9412002B7700 /* GenericBlogView.swift in Sources */,
+				149355612B2AC872002B7700 /* UserLogout.swift in Sources */,
+				146AA8E42B280C6200AB2EB1 /* PostBlogViewController.swift in Sources */,
+				146AA8E02B2456ED00AB2EB1 /* QuizBrain.swift in Sources */,
+				1493554E2B2A7991002B7700 /* BlogView.swift in Sources */,
+				14999ED72B2A6A090083C423 /* LoginView.swift in Sources */,
+				146AA8CC2B216E8F00AB2EB1 /* LoginHomeViewController.swift in Sources */,
+				146AA8E22B27D1C900AB2EB1 /* GenericBlogsViewController.swift in Sources */,
 				146AA8952B1EF1DD00AB2EB1 /* AppDelegate.swift in Sources */,
 				146AA8972B1EF1DD00AB2EB1 /* SceneDelegate.swift in Sources */,
+				146AA8CE2B21806A00AB2EB1 /* BlogViewController.swift in Sources */,
+				14008CF02B2A6D4200C786AF /* WelcomeScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +758,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		146AA8D12B2181C800AB2EB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.0;
+			};
+		};
+		1493555D2B2AB69E002B7700 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.16;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		146AA8D22B21821F00AB2EB1 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 146AA8D12B2181C800AB2EB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		146AA8D52B21843C00AB2EB1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 146AA8D12B2181C800AB2EB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		146AA8D72B21843C00AB2EB1 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 146AA8D12B2181C800AB2EB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		146AA8D92B21843C00AB2EB1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 146AA8D12B2181C800AB2EB1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1493555E2B2AB69E002B7700 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1493555D2B2AB69E002B7700 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 146AA8892B1EF1DD00AB2EB1 /* Project object */;
 }
