@@ -70,7 +70,6 @@ class QuizListView: UIViewController {
        super.viewDidLoad()
 
        view.backgroundColor = UIColor.white
-       title = "BYTE BOOK EXCHANGE"
        setupViews()
        setupConstraints()
 

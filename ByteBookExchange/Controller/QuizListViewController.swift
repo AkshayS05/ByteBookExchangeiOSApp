@@ -26,11 +26,11 @@ class QuizListViewController: QuizListView, UserLogout {
             // navigation based on the selected item
             switch selectedItem {
             case "Arrays Quiz":
-                navigateToQuizScreen(title: "Quiz")
+                navigateToQuizScreen(title: "")
             case "Stacks Data Structures Quiz":
-                navigateToQuizScreen(title: "Quiz")
+                navigateToQuizScreen(title: "")
             case "Queue Data Structures Quiz":
-                navigateToQuizScreen(title: "Quiz")
+                navigateToQuizScreen(title: "")
             default:
                 break
             }
